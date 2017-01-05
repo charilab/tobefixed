@@ -9,13 +9,26 @@
     <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
 </head>
 <body>
+    <h1>ToBeFixed@Charilab</h1>
+    <hr>
     <div id="map"></div>
+    <div id="table">
+    <table border="1" cellspacing="0" cellpadding="5" bordercolor="#333333">
+    <tr><th>対象</th><th>リンク</th></tr>
+    <tr><td>コンビニエンスストア</td><td><a id="tdf_conv"></a></td></tr>
+    <tr><td>トイレ</td><td><a id="tdf_toilets"></a></td></tr>
+    <tr><td>信号機</td><td><a id="tdf_sig"></a></td></tr>
+    </table>
+    </div>
+    <hr>
+    &copy;Charilab, 2016-2017
+
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
-    <script src="/libs/libPOI.js"></script>
-    <script src="/libs/geoJson.js"></script>
-    <script src="/libs/baselayers.js"></script>
+    <script src="/charilab/libs/libPOI.js"></script>
+    <script src="/charilab/libs/geoJson.js"></script>
+    <script src="/charilab/libs/baselayers.js"></script>
     <script src="tobefixed.js"></script>
 </body>
 </html>
