@@ -11,6 +11,33 @@
 <body>
     <h1>ToBeFixed@Charilab</h1>
     <hr>
+    <div id="desc">
+    <p>
+ToBeFixed@Charilabは、OSM上のデータ品質の改善を行うための支援ツールです。
+
+<h4>【使い方】</h4>
+<ol>
+  <li> 地図上で修正したい範囲を選択、内容を確認
+  <li> 地図の下にあるGPXデータダウンロードのためのリンク先を、JOSMの”File”→”Open Location…”へコピー＆ペースト
+  <li> 後はお好きな方法でOSMのデータを編集
+</ol>
+<p>
+実運用的には「汎用的にプロジェクトを作成・管理する機能」が必要ですが、まずは以下の３つのプロジェクトを試験的に作成しました。
+
+<ul>
+  <li>コンビニエンスストア
+　<a href="http://wiki.openstreetmap.org/wiki/JA:Naming_sample">JA:Naming_sample</a>に記載はありますが、なかなか統一されていないので、nameタグに誤りがあるものを抽出します。（検出パターンとソースは別途公開予定）
+
+  <li>トイレ
+　車椅子(wheelchair)タグのないトイレを抽出します。自転車乗りが実地調査で貢献できそうな例として挙げました。
+
+  <li>交差点名
+　交差点名のカバー率向上はなかなか難しい問題なのですが、今回はnameタグがない信号機情報を抽出しています（詳しくは<a href="http://charilab.sakura.ne.jp/blog/stats/">この記事</a>参照）。
+</ul>
+
+UI面でいろいろ改善点はあると思いますが、最終的にはJOSMのプラグイン化がベストかなと思っていますので、当面はこれで実用性を検証していきます。
+    </p>
+    </div>
     <div id="map"></div>
     <div id="table">
     <table border="1" cellspacing="0" cellpadding="5" bordercolor="#333333">

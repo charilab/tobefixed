@@ -1,6 +1,6 @@
 #site-box {}
 
-body { margin: 0; padding:0; }
+body { margin: 10; padding:0; }
 
 #map {
     position: relative;

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+         version="2016-5-15"
+         author="Shunji Uno"
+         ja.author="宇野俊司"
+         shortdescription="Japanese Cafe"
+         ja.shortdescription="日本のカフェ"
+             license="CC BY-SA">
+<group name="カフェ">
+  <item name="エクセルシオール カフェ">
+    <label text="エクセルシオール カフェ" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="エクセルシオール カフェ" />
+    <key key="brand" value="EXCELSIOR CAFFE" />
+    <key key="name:en" value="EXCELSIOR CAFFE" />
+    <key key="name:ja" value="エクセルシオール カフェ" />
+    <key key="name:ja_rm" value="Ekuserusiōru Kafe" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="カフェ・ド・クリエ">
+    <label text="カフェ・ド・クリエ" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="カフェ・ド・クリエ" />
+    <key key="brand" value="Cafe de CRIE" />
+    <key key="name:en" value="Cafe de CRIE" />
+    <key key="name:ja" value="カフェ・ド・クリエ" />
+    <key key="name:ja_rm" value="Kafe Do Kurie" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="カフェ・ベローチェ">
+    <label text="カフェ・ベローチェ" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="カフェ・ベローチェ" />
+    <key key="brand" value="CAFFÉ VELOCE" />
+    <key key="name:en" value="CAFFE VELOCE" />
+    <key key="name:ja" value="カフェ・ベローチェ" />
+    <key key="name:ja_rm" value="Kafe Berōche" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="珈琲館">
+    <label text="珈琲館" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="珈琲館" />
+    <key key="brand" value="珈琲館" />
+    <key key="name:en" value="KO:HI:KAN" />
+    <key key="name:ja" value="珈琲館" />
+    <key key="name:ja_rm" value="Kohīkan" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="コミックバスター">
+    <label text="コミックバスター" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="コミックバスター" />
+    <key key="brand" value="COMIC BUSTER" />
+    <key key="name:en" value="COMIC BUSTER" />
+    <key key="name:ja" value="コミックバスター" />
+    <key key="name:ja_rm" value="Komikku Basutā" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="コメダ珈琲店">
+    <label text="コメダ珈琲店" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="コメダ珈琲店" />
+    <key key="brand" value="コメダ珈琲店" />
+    <key key="name:en" value="Komeda" />
+    <key key="name:ja" value="コメダ珈琲店" />
+    <key key="name:ja_rm" value="Komeda Kohīten" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="サンマルクカフェ">
+    <label text="サンマルクカフェ" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="サンマルクカフェ" />
+    <key key="brand" value="サンマルクカフェ" />
+    <key key="name:en" value="ST-MARC CAFE" />
+    <key key="name:ja" value="サンマルクカフェ" />
+    <key key="name:ja_rm" value="Sanmaruku Kafe" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="自遊空間">
+    <label text="自遊空間" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="自遊空間" />
+    <key key="brand" value="自遊空間" />
+    <key key="name:en" value="Jiyu Kukan" />
+    <key key="name:ja" value="自遊空間" />
+    <key key="name:ja_rm" value="Jiyū Kūkan" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="スターバックス">
+    <label text="スターバックス" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="スターバックス" />
+    <key key="brand" value="STARBUCKS" />
+    <key key="name:en" value="Starbucks" />
+    <key key="name:ja" value="スターバックス" />
+    <key key="name:ja_rm" value="Sutābakkusu" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="タリーズコーヒー">
+    <label text="タリーズコーヒー" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="タリーズコーヒー" />
+    <key key="brand" value="TULLY’S COFFEE" />
+    <key key="name:en" value="Tully's Coffee" />
+    <key key="name:ja" value=" タリーズコーヒー " />
+    <key key="name:ja_rm" value="Tarīzu Kohī" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="ドトールコーヒーショップ">
+    <label text="ドトールコーヒーショップ" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="ドトールコーヒーショップ" />
+    <key key="brand" value="DOUTOR" />
+    <key key="name:en" value="DOUTOR" />
+    <key key="name:ja" value="ドトールコーヒーショップ" />
+    <key key="name:ja_rm" value="Dotōru Kōhī Shoppu" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="PRONTO">
+    <label text="PRONTO" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="PRONTO" />
+    <key key="brand" value="プロントコーポレーション" />
+    <key key="name:en" value="PRONTO" />
+    <key key="name:ja" value="プロント" />
+    <key key="name:ja_rm" value="PRONTO" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+  <item name="メディアカフェポパイ">
+    <label text="メディアカフェポパイ" />
+    <key key="amenity" value="cafe" />
+    <key key="name" value="メディアカフェポパイ" />
+    <key key="brand" value="MediaCafe POPEYE" />
+    <key key="name:en" value="MediaCafe POPEYE" />
+    <key key="name:ja" value="メディアカフェポパイ" />
+    <key key="name:ja_rm" value="Medhia Kafe Popai" />
+    <optional>
+      <text key="branch" text="店舗名(渋谷駅前店、等）" />
+    </optional>
+  </item>
+</group>
+</presets>

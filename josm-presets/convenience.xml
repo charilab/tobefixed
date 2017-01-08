@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+         version="2015-12-28"
+         author="Shunji Uno"
+         ja.author="宇野俊司"
+         shortdescription="Japanese Convenience Stores"
+         ja.shortdescription="日本のコンビニ"
+	     license="CC BY-SA">
+
+<group name="コンビニ">
+<item name="セブン-イレブン">
+  <label text="セブン-イレブン" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="セブン-イレブン" />
+  <key key="brand" value="セブン-イレブン" />
+  <key key="name:en" value="Seven-Eleven" />
+  <key key="name:ja" value="セブン-イレブン" />
+  <key key="name:ja_rm" value="Sebun Irebun" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="ローソン">
+  <label text="ローソン" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="ローソン" />
+  <key key="brand" value="LAWSON" />
+  <key key="name:en" value="LAWSON" />
+  <key key="name:ja" value="ローソン" />
+  <key key="name:ja_rm" value="Rōson" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="ファミリーマート">
+  <label text="ファミリーマート" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="ファミリーマート" />
+  <key key="brand" value="FamilyMart" />
+  <key key="name:en" value="FamilyMart" />
+  <key key="name:ja" value="ファミリーマート" />
+  <key key="name:ja_rm" value="Famirī Māto" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="ミニストップ">
+  <label text="ミニストップ" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="ミニストップ" />
+  <key key="brand" value="MINISTOP" />
+  <key key="name:en" value="MINISTOP" />
+  <key key="name:ja" value="ミニストップ" />
+  <key key="name:ja_rm" value="Mini Stoppu" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="サークルK">
+  <label text="サークルK" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="サークルK" />
+  <key key="brand" value="サークルK" />
+  <key key="name:en" value="Circle K" />
+  <key key="name:ja" value="サークルK" />
+  <key key="name:ja_rm" value="Sākuru-Kei" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="デイリーヤマザキ">
+  <label text="デイリーヤマザキ" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="デイリーヤマザキ" />
+  <key key="brand" value="Daily YAMAZAKI" />
+  <key key="name:en" value="Daily YAMAZAKI" />
+  <key key="name:ja" value="デイリーヤマザキ" />
+  <key key="name:ja_rm" value="Deirī Yamazaki" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="ポプラ">
+  <label text="ポプラ" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="ポプラ" />
+  <key key="brand" value="ポプラ" />
+  <key key="name:en" value="POPLAR" />
+  <key key="name:ja" value="ポプラ" />
+  <key key="name:ja_rm" value="Popura" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="スリーエフ">
+  <label text="スリーエフ" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="スリーエフ" />
+  <key key="brand" value="スリーエフ" />
+  <key key="name:en" value="Three-F" />
+  <key key="name:ja" value="スリーエフ" />
+  <key key="name:ja_rm" value="Surīefu" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="サンクス">
+  <label text="サンクス" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="サンクス" />
+  <key key="brand" value="sunkus サンクス" />
+  <key key="name:en" value="sunkus" />
+  <key key="name:ja" value="サンクス" />
+  <key key="name:ja_rm" value="Sunkusu" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="ココストア">
+  <label text="ココストア" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="ココストア" />
+  <key key="brand" value="Coco!" />
+  <key key="name:en" value="Coco Store" />
+  <key key="name:ja" value="ココストア" />
+  <key key="name:ja_rm" value="KoKo Sutoa" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+<item name="セイコーマート">
+  <label text="セイコーマート" />
+  <key key="shop" value="convenience" />
+  <key key="name" value="セイコーマート" />
+  <key key="brand" value="Seicomart" />
+  <key key="name:en" value="Seicomart" />
+  <key key="name:ja" value="セイコーマート" />
+  <key key="name:ja_rm" value="Seikōmāto" />
+  <optional>
+    <text key="branch" text="店舗名(渋谷駅前店、等）" />
+  </optional>
+</item>
+</group>
+</presets>
